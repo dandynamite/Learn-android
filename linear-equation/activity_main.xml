@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:id="@+id/teNumberA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Nhập A"
+        android:inputType="number"
+        android:background="#aa29e9a6"/>
+    <EditText
+        android:id="@+id/teNumberB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Nhập B"
+        android:inputType="number"
+        android:background="#aaf9eb74"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:gravity="center"
+        android:id="@+id/tvEquation"/>
+    <Button
+        android:id="@+id/btnResolve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giai"/>
+</LinearLayout>
