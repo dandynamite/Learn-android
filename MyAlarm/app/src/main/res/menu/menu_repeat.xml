@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/once" android:title="1 lan"/>
+<item android:id="@+id/everyday" android:title="nhieu lan"/>
+<item android:id="@+id/someday" android:title="nhieu lan"/>
+
+</menu>
